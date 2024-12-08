@@ -35,6 +35,19 @@ ul
    
     
 }
+ul div{
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+}
+ul div:nth-child(2){
+    flex-grow: 6;
+    
+}
+ul div:nth-child(3)
+{
+   
+}
 ul li
 {
     background-color: white;
